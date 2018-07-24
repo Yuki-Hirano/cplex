@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+
+
+def create_LP():
+
+    N=4 # number of nodes 
+    
+    path= "./ilp_4node.lp"
+    with open(path, mode="w") as f:
+        f.write("minimize\n")
+        for i in range(N):
+            for j in range(N):
+                if i!=N and j!=N:
+                    f.write("cb_{0}{1}+".format(i,j))
+                else:
+                    f.write("cb_{0}{1}".format(i,j))
+        f.write("\n")
+
+
+
+
+
+
+
+
+
+if __name__=="__main__":
+     create_LP()

@@ -1,12 +1,20 @@
 #include<ilcplex/ilocplex.h>
+#define N 4
+
 using namespace std;
 
 
-
-
-
-
 int main() {
+
+  int p_link[N][N];
+  
+
+  //primary network
+
+
+
+
+  
 
   IloEnv env;
   IloModel model(env);
