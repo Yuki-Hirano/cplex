@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 import numpy as np
 
 N=4 # number of nodes
@@ -43,7 +42,7 @@ def given_info():
                     for j in rnage(n_max_1):
                         for k in range(n_max_2):
                             Omega.append([])
-                            #0.075 0.05
+                            #probability=0.075 epsilon=0.05
                             Omega=[
                                 [[0,10,10],[5,10,10]],
                                 [[1,10,10],[5,10,10]],

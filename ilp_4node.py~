@@ -38,55 +38,21 @@ def given_info():
     #print(f_2)
 
 #set Omega
-Omega=np.zeros(3,3,3)
-Omega[0][0][0]=0
-Omega[0][0][1]=10
-Omega[0][0][2]=10
-Omega[0][1][0]=5
-Omega[0][1][1]=10
-Omega[0][1][2]=10
-Omega[1][0][0]=1
-Omega[1][0][1]=10
-Omega[1][0][2]=10
-Omega[1][1][0]=5
-Omega[1][1][1]=10
-Omega[1][1][2]=10
-Omega[2][0][0]=1
-Omega[2][0][1]=10
-Omega[2][0][2]=10
-Omega[2][1][0]=5
-Omega[2][1][1]=10
-Omega[2][1][2]=10
-Omega[3][0][0]=1
-Omega[3][0][1]=10
-Omega[3][0][2]=10
-Omega[3][1][0]=5
-Omega[3][1][1]=10
-Omega[3][1][2]=10
-Omega[4][0][0]=1
-Omega[4][0][1]=10
-Omega[4][0][2]=10
-Omega[4][1][0]=5
-Omega[4][1][1]=10
-Omega[4][1][2]=11
-Omega[5][0][0]=1
-Omega[5][0][1]=10
-Omega[5][0][2]=11
-Omega[5][1][0]=5
-Omega[5][1][1]=10
-Omega[5][1][2]=11
-Omega[6][0][0]=2
-Omega[6][0][1]=10
-Omega[6][0][2]=11
-Omega[6][1][0]=5
-Omega[6][1][1]=10
-Omega[6][1][2]=11
-
-
-
-
-    
-
+                #Omega=[]
+                #for i in range(n_max_0):
+                    for j in rnage(n_max_1):
+                        for k in range(n_max_2):
+                            Omega.append([])
+                            #0.075 0.05
+                            Omega=[
+                                [[0,10,10],[5,10,10]],
+                                [[1,10,10],[5,10,10]],
+                                [[1,10,10],[5,10,10]],
+                                [[1,10,10],[5,10,10]],
+                                [[1,10,10],[5,10,11]],
+                                [[1,10,11],[5,10,11]],
+                                [[2,10,11],[5,10,11]],
+                                   ]
 
     #if char=="p":   #primary network
      #   return cp
