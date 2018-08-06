@@ -86,10 +86,11 @@ int main(int argc, char *argv[]){
 
 
 	omega=define_cap(p_density,EPSILON);
-	printf("Omega[%d][%d][%d]=%d\n",i,j,k,omega);
+	printf("Omega[%d][%d][%d]=%d;",i,j,k,omega);
 
 	free(p_density);
       }
+      printf("\n");
     }
   }
 
